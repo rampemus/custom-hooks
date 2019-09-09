@@ -99,14 +99,6 @@ const App = () => {
         number.reset()
     }
 
-    const previewArray = (array) => {
-        if ( array && array.length > 0 ) {
-            return array.map(n => <p key={n.id}>{n.content}</p>)
-        } else {
-            return <p>array is empty</p>
-        }
-    }
-
     return (
         <div>
             <h2>notes</h2>
